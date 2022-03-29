@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2021/12/15/06/20/watch-6871818_960_720.jpg"
+    },
+    {
+        "id": "2",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2019/12/21/10/29/fitness-band-4710206_960_720.jpg"
+    },
+    {
+        "id": "3",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2021/11/03/05/33/fitness-band-6764739_960_720.jpg"
+    },
+    {
+        "id": "4",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://media.istockphoto.com/photos/smart-watch-picture-id1386622264?s=612x612"
+    },
+    {
+        "id": "5",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://media.istockphoto.com/vectors/fitness-band-tracker-running-counter-vector-id1158723499?s=612x612"
+    },
+    {
+        "id": "6",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2017/10/12/16/50/smart-watch-2845072_960_720.png"
+    },
+    {
+        "id": "7",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2022/01/24/18/06/smart-watch-6964296_960_720.jpg"
+    },
+    {
+        "id": "8",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2015/06/25/17/22/smart-watch-821559_960_720.jpg"
+    },
+    {
+        "id": "9",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2019/12/21/10/29/fitness-band-4710206_960_720.jpg"
+    },
+    {
+        "id": "10",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2020/10/19/09/07/apple-watch-5667205_960_720.jpg"
+    },
+    {
+        "id": "11",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2015/02/19/18/31/sport-watch-642484_960_720.jpg"
+    },
+    {
+        "id": "12",
+        "category": "Smart-Band",
+        "name": "ULTRABOOST 22 SHOES",
+        "seller": "Addidas",
+        "price": 420,
+        "img": "https://cdn.pixabay.com/photo/2017/12/04/06/00/watch-2996385_960_720.jpg"
+    }
+]
