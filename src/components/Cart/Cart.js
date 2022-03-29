@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Cart.css'
 
-const Cart = ({cart}) => {
+const Cart = ({cart,handleRemoveCart}) => {
     // console.log(cart.length);
     const [freeItem,setFreeItem] = useState({});
     //console.log(freeItem);
@@ -11,9 +11,7 @@ const Cart = ({cart}) => {
         const item = cart[randomProduct]
         setFreeItem(item);
     }
-    const removeAllCart = () =>{
-        
-    }
+    
     return (
         <div className='cart'>
             <h4>order summery</h4>
@@ -33,7 +31,7 @@ const Cart = ({cart}) => {
                 <p>${freeItem.price}</p>
             </div>
 
-            <button onClick={()=>removeAllCart(cart)}  className='cartBtn'>Remove All</button>
+            <button onClick={handleRemoveCart}  className='cartBtn'>Remove All</button>
             </div>
         </div>
     );

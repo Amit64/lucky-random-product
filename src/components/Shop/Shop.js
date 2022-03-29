@@ -16,6 +16,9 @@ const Shop = () => {
        const  newCart= [...cart,product];
         setCart(newCart);
     }
+    const handleRemoveCart = (cart)=>{
+        setCart([]);
+    }
 
     return (
         <div className='shop-container'>
@@ -34,6 +37,7 @@ const Shop = () => {
                 <Cart 
                 cart={cart}
                 products={products}
+                handleRemoveCart={handleRemoveCart}
                 ></Cart>
             </div>
         </div>
