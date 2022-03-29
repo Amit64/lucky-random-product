@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = ({cart}) => {
     // console.log(cart.length);
     const [freeItem,setFreeItem] = useState({});
-    console.log(freeItem);
+    //console.log(freeItem);
     
     const handleRandomCart =()=>{
         const randomProduct = Math.floor(Math.random() * cart.length);
@@ -12,8 +12,7 @@ const Cart = ({cart}) => {
         setFreeItem(item);
     }
     const removeAllCart = () =>{
-        setFreeItem({});
-        delete Object.keys(cart);
+        
     }
     return (
         <div className='cart'>
@@ -26,13 +25,14 @@ const Cart = ({cart}) => {
                 </div>)
             }
             <p>.................</p>
+            <div className='cartBtnContainer'>
+            <button onClick={()=>handleRandomCart(cart)} className='cartBtn'>Choose for me</button>
             <div className='addToCart'>
                 <img src={freeItem.img} alt="" />
                 <p>{freeItem.name}</p>
+                <p>${freeItem.price}</p>
             </div>
 
-            <div className='cartBtnContainer'>
-            <button onClick={()=>handleRandomCart(cart)} className='cartBtn'>Choose 1 for me</button>
             <button onClick={()=>removeAllCart(cart)}  className='cartBtn'>Remove All</button>
             </div>
         </div>
